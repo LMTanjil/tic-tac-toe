@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding:0;
+   
+
+}
+
+body{
+    text-align: center;
+    background-color: #2D719F;
+}
+
+#gt{
+    padding: 3vmin;
+    font-size: 12vmin;
+    font-family: monospace;
+    color: #f3f0f0;
+}
+
+#container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#gamebox{
+    height: 60min;
+    width: 60vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 2vmin;
+    background-color: #ffc857;
+    color: #C5283D;
+    font-size: 10vmin;
+    box-shadow: 0 0 1rem   #103e5d;
+}
+
+.rBtn{
+    padding: 2vmin;
+    font-size: 7vmin;
+    background-color: #481D24;
+    color: white;
+    border: none;
+    border-radius: 3vmin;
+    border: none;
+    
+}
+
+
+.win{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#new_btn{
+    padding: 2vmin;
+    font-size: 7vmin;
+    background-color: #481D24;
+    color: white;
+    border: none;
+    border-radius: 3vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#wmsg{
+    height: 30vmin;
+    padding: 2vmin;
+    font-size: 8vmin;
+    font-family: monospace;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#msg_con{
+    height:100vmin ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cHid{
+    display:none;
+}
